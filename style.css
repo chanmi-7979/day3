@@ -1,3 +1,12 @@
+body{
+    display: contents;
+}
+
+a{
+    text-decoration: none;
+
+}
+
 .navbar{
     float: right;
     margin: 20px;
@@ -11,5 +20,93 @@
 
 .nav-item:hover{
     text-decoration: underline; 
+}
+
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.input-area{
+    margin-top: 15px;
+    position: relative;
+}
+
+.input-box{
+    border-radius: 24px;
+    padding: 5px 30px;
+    width: 80%;
+    border: 1px solid #dfe1e5;
+}
+
+.input-box:hover{
+    background-color: #f5f5f5;
+}
+
+.search{
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.microphone{
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0 16px;
+    height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px (#000 / 10%);
+}
+
+.language{
+    padding:2px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.footer>:nth-child(1){
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.footer>:last-child{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+
+}
+
+.footer a{
+    padding: 1px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
 }
 
