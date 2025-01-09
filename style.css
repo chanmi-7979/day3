@@ -1,5 +1,6 @@
 body{
     display: contents;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -69,7 +70,6 @@ button{
     margin-bottom: 15px;
     padding: 0 16px;
     height: 36px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 button:hover{
