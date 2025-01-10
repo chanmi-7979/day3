@@ -1,4 +1,4 @@
-body{
+	body{
     display: contents;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,8 +40,10 @@ a{
 .input-box{
     border-radius: 24px;
     padding: 5px 30px;
-    width: 80%;
+    width: 400px;
     border: 1px solid #dfe1e5;
+	height: 40px;
+	box-shadow:0 0 5px #ddd;
 }
 
 .input-box:hover{
@@ -104,9 +106,9 @@ button:hover{
 
 .footer a{
     padding: 1px;
+	color:rgba(0, 0, 0, .54);
 }
 
 .footer a:hover{
     text-decoration: underline;
 }
-
